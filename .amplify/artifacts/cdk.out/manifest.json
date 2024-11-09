@@ -1,0 +1,361 @@
+{
+  "version": "38.0.1",
+  "artifacts": {
+    "amplify-gen2app-node-sandbox-9f7f159acf.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-gen2app-node-sandbox-9f7f159acf.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-gen2app-node-sandbox-9f7f159acf": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-gen2app-node-sandbox-9f7f159acf.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "notificationArns": [],
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fa190fd1a4fca0c343e7927a6121d9cc59b4e71fd808d2da18efc8070bba77fc.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-gen2app-node-sandbox-9f7f159acf.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-gen2app-node-sandbox-9f7f159acf.assets"
+      ],
+      "metadata": {
+        "/amplify-gen2app-node-sandbox-9f7f159acf": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/authenticatedUserRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleDefaultPolicy82E52873"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/reference-to-amplifygen2appnodesandbox9f7f159acffunctionNestedStackfunctionNestedStackResource79B7FB21Outputs.amplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifygen2appnodesandbox9f7f159acffunctionNestedStackfunctionNestedStackResource79B7FB21Outputsamplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDArn"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifygen2appnodesandbox9f7f159acfauthamplifyAuthUserPool664910AARef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifygen2appnodesandbox9f7f159acfauthamplifyAuthUserPool664910AARef"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifygen2appnodesandbox9f7f159acfauthamplifyAuthUserPoolAppClientAF6C3EF2Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifygen2appnodesandbox9f7f159acfauthamplifyAuthUserPoolAppClientAF6C3EF2Ref"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth/amplifygen2appnodesandbox9f7f159acfauthamplifyAuthIdentityPool04F5DA55Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifygen2appnodesandbox9f7f159acfauthamplifyAuthIdentityPool04F5DA55Ref"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/hello-world-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloworldlambdaServiceRole1E1C4841"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/hello-world-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloworldlambda89B27E55"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/amplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDArn"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function/amplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifygen2appnodesandbox9f7f159acffunctionhelloworldlambdaBA6AEAEDRef"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/customOutputs": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "customOutputs"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-gen2app-node-sandbox-9f7f159acf/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-gen2app-node-sandbox-9f7f159acf"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
